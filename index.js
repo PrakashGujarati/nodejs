@@ -2,11 +2,12 @@ const name = "Prakash Gujarati"
 // console.log("Hello "+name)
 console.log(`Hello ${name}`)
 
-console j = 5
-console sum = 1;
-for(i=1;i<j;i++)
+const j = 5
+let sum = 0;
+for(i=1;i<=j;i++)
 {
-    sum += j
+    sum += i
+    console.log("i:",i)
 }
 console.log(sum)
     
