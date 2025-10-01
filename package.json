@@ -16,5 +16,9 @@
     "url": "https://github.com/PrakashGujarati/nodejs/issues"
   },
   "homepage": "https://github.com/PrakashGujarati/nodejs#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
 }
