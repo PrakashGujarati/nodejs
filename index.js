@@ -5,6 +5,6 @@ app.get("/", (req, res) => {
   res.send({"message":"hello world"});
 });
 
-server.listen(3000, () => {
+app.listen(3000, () => {
   console.log("Server running on http://172.22.112.1:3000");
 });
